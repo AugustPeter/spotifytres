@@ -4,12 +4,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body,html{
     
     height: 100%;
     font-family: 'roboto';
     overflow: hidden;
+}
+a{
+    text-decoration: none;
+    list-style: none;
 }
 .sidebar{
     float: left;
