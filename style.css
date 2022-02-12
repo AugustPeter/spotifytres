@@ -12,10 +12,7 @@ body,html{
     font-family: 'roboto';
     overflow: hidden;
 }
-a{
-    text-decoration: none;
-    list-style: none;
-}
+
 .sidebar{
     float: left;
     height: 100%;
@@ -54,11 +51,12 @@ span p{
     align-items: center;
    
 }
+
 .home,.busca,.menu,.playlist p{
    
     filter: brightness(70%);
 }
-.home,.playlists p:hover{
+.playlists p:hover{
     filter: brightness(100%);
 
 }
@@ -340,6 +338,10 @@ span p{
     font-size: normal;
     font-family: 'Circular Std';
 }
+a{
+    filter: brightness(70%);
+    color: white;
+}
 .bloco p{
     color: #9b9b9b;
 }
@@ -355,7 +357,106 @@ span p{
     display: flex;
     width: 100%;
     height: 93px;
-    background-color: tomato;
+    background-color: #181818;
     position: absolute;
     z-index: 2;
+    padding-left: calc(20px - 3px);
+}
+.controles{
+    position: relative;
+    width: 650px;
+    left: 30%;
+    top: 0px;
+    transform: translatex(-9%);
+    height: 93px;
+}
+.play{
+    position: absolute;
+    top: -9px;
+    left: -8px;
+    transform: translate(50%,50%);
+}
+
+.boladoplay{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 47.5%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.musica{
+    width: 438px;
+    height: 5px;
+    background-color: #535353;
+    position: absolute;
+    top: 45px;
+    border-radius: 30px;
+    left: 104px;
+    max-width: 438px;
+    min-width: 198px;
+    padding-left: 200px;
+}
+.tempo{
+    left: -37px;
+    top: -4px;
+    position: absolute;
+    font-size: 11px;
+    font-family:'Circular Std';
+    color: #a7a7a7;
+    
+}
+
+.musicacont{
+    position: relative;
+    max-width: 100%;
+}
+.playermusicanome{
+    color: white;
+    font-size: 14px;
+    font-family:'roboto';
+    top: 12px;
+    left: 69px;
+    position: absolute;
+}
+.autor{
+    font-size: 11px;
+    font-family: 'roboto';
+    left: 69px;
+    top: 29px;
+    color: white;
+    position: absolute;
+    width: 65px;
+    filter: brightness(75%);
+}
+
+.heartplayer{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+}
+
+.numsei{
+    width: 17px;
+    height: 13px;
+    border: 1.9px solid rgb(255, 255, 255);
+    background-color: red;
+    border-bottom: 2.9px solid white;
+    top: 21px;
+    left: 190px;
+    position: absolute;
+    background-color: transparent;
+    filter: brightness(75%);
+}
+
+.ponto{
+    width: 5px;
+    height: 4px;
+    background-color: #bebebe;
+    left: 62%;
+    top: 50%;
+   
+    position: absolute;
 }
