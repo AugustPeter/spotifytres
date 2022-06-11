@@ -12,7 +12,10 @@ body,html{
     font-family: 'roboto';
     overflow: hidden;
 }
-
+@font-face{
+    font-family: circular;
+    src: local(circular), url(fonte/Circular/CircularStd-Black.otf)
+}
 .sidebar{
     float: left;
     height: 100%;
@@ -252,7 +255,7 @@ span p{
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family:'Circular Std';
+    font-family:'circular';
 }
 
 .largao2{
@@ -262,7 +265,7 @@ span p{
     border-radius: 30px;
     width: 165px;
     top: -9px;
-    
+    cursor: pointer;
 }
 .userspan{
     position: absolute;
@@ -272,8 +275,10 @@ span p{
     right: 52px;
     top: 21px;
     font-weight: 600;
+    cursor: pointer;
 }
 .fotodeperfil{
+    cursor: pointer;
     position: relative;
     border-radius: 50%;
     z-index: 2;
@@ -289,6 +294,7 @@ span p{
     ::-webkit-scrollbar-thumb{
     background: #5c5c5c;
     border-radius: 0px;
+    
     }
     ::-webkit-scrollbar-thumb:hover{
     background: #8c8c8c;
@@ -365,7 +371,7 @@ a{
 .controles{
     position: relative;
     width: 650px;
-    left: 30%;
+    left: 26.7%;
     top: 0px;
     transform: translatex(-9%);
     height: 93px;
@@ -382,20 +388,20 @@ a{
     width: 32px;
     height: 32px;
     top: 0;
-    left: 47.5%;
+    left: 46%;
     position: relative;
     border-radius: 50%;
 }
 
 .musica{
     width: 438px;
-    height: 5px;
+    height: 4px;
     background-color: #535353;
     position: absolute;
     top: 45px;
     border-radius: 30px;
     left: 104px;
-    max-width: 438px;
+    max-width: 435px;
     min-width: 198px;
     padding-left: 200px;
 }
@@ -408,7 +414,21 @@ a{
     color: #a7a7a7;
     
 }
+.backmusic{
+    position: absolute;
+    top: -98px;
+    left: 150px;
+}
 
+.backmusic2{
+    position: absolute;
+    top: -2px;
+    left: 345px;
+}
+
+.numsei:hover,.heartplayer:hover{
+    filter: brightness(150%);
+}
 .musicacont{
     position: relative;
     max-width: 100%;
