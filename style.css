@@ -416,14 +416,37 @@ a{
 }
 .backmusic{
     position: absolute;
-    top: -98px;
-    left: 150px;
+    top: 3.0px;
+    left: 256px;
+    transform: rotate(180deg);
 }
-
+.repeatbox{
+    position: absolute;
+    background-color: transparent;
+    top: 6px;
+    left: 395px;
+}
+.pontinho{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    left: 46%;
+    top: 97%;
+    background-color: #a7a7a7;
+}
+.mixarrow{
+    position: absolute;
+    top: 6.0px;
+    left: 215px;
+}
+.mixarrow:hover,.pontinho:hover,.repeatbox:hover,.backmusic:hover,.backmusic2:hover{
+    filter:brightness(150%) ;
+}
 .backmusic2{
     position: absolute;
-    top: -2px;
-    left: 345px;
+    top: 7px;
+    left: 355px;
 }
 
 .numsei:hover,.heartplayer:hover{
@@ -477,6 +500,5 @@ a{
     background-color: #bebebe;
     left: 62%;
     top: 50%;
-   
     position: absolute;
 }
