@@ -530,7 +530,7 @@ a{
     height: 13px;
     border: 1.9px solid rgb(255, 255, 255);
     background-color: red;
-    border-bottom: 2.9px solid white;
+    border-bottom: 2.9px solid white; 
     top: 21px;
     left: 190px;
     position: absolute;
@@ -545,4 +545,57 @@ a{
     left: 62%;
     top: 50%;
     position: absolute;
+}
+
+.segundaparte{
+    position: absolute;
+    width: 10.5px;
+    height: 15px;
+    top: 41px;
+    border: 2px solid #a7a7a7;
+    border-radius: 20%;
+    left: 1206px;
+}
+.bolotinha{
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    top: 43%;
+    border-radius: 30px;
+    border: 2px solid #a7a7a7;
+    left: 1.2px;
+}
+.primeiraparte{
+    position: absolute;
+    width: 5.5px;
+    height: 12px;
+    top: 41px;
+    border-top: 2px solid #a7a7a7;
+    border-bottom: 2px solid #a7a7a7;
+    border-left: 2px solid #a7a7a7;
+    border-radius: 33%;
+    left: 1198px;
+}
+.burg{
+    position: absolute;
+    top: 49px;
+    border: 2px solid #a7a7a7;
+    border-radius: 30%;
+    left: 1170px;
+    width: 15px;
+    height: 6px;
+}
+.burg2{
+    position: absolute;
+    top: 40px;
+    border: 2px solid #a7a7a7;
+    border-radius: 30%;
+    left: 1170.5px;
+    width: 13.5px;
+    height: 6px;
+}
+.karaoke{
+    left: 1140px;
+    position: absolute;
+    top: 40px;
 }
