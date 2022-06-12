@@ -405,6 +405,50 @@ a{
     min-width: 198px;
     padding-left: 200px;
 }
+.volume{
+    height: 4px;
+    background-color:#535353;
+    position: absolute;
+    width: 93px;
+    top: 45.5px;
+    left: 1258px;
+    z-index: 1;
+    border-radius: 30px;
+}
+.volume2{
+    height: 4px;
+    background-color:white;
+    position: absolute;
+    width: 35px;
+    top: 45.5px;
+    left: 1258px;
+    border-radius: 30px;
+    z-index: 2;
+}
+.volumes:hover .volume2{
+    background-color: #1db954;
+    z-index: 1;
+}
+.volumes:hover .bolinha{
+    display: block;
+    z-index: 2;
+}
+.bolinha{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 42px;
+    z-index: 2;
+    left: 1286px;
+    display: none;
+    border-radius: 50%;
+    background-color: white;
+}
+.volumeicon{
+    top: 41px;
+    left: 1235px;
+    position: absolute;
+}
 .tempo{
     left: -37px;
     top: -4px;
@@ -440,7 +484,7 @@ a{
     top: 6.0px;
     left: 215px;
 }
-.mixarrow:hover,.pontinho:hover,.repeatbox:hover,.backmusic:hover,.backmusic2:hover{
+.mixarrow:hover,.pontinho:hover,.repeatbox:hover,.backmusic:hover,.backmusic2:hover,.volumeicon:hover{
     filter:brightness(150%) ;
 }
 .backmusic2{
